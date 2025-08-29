@@ -16,3 +16,31 @@ Output: [0,1]
 
 ### Difficulty
 - Easy
+
+---
+
+# LeetCode Solutions – Day 2
+
+## 🧩 Problem 9: Palindrome Number  
+
+### Problem Statement  
+Given an integer `x`, return **true** if `x` is a palindrome, and **false** otherwise.  
+A palindrome is a number that reads the same forward and backward.  
+
+---
+
+### Sample Input / Output  
+**Input:** x = 121  
+**Output:** true  
+
+**Input:** x = -121  
+**Output:** false  
+
+**Input:** x = 10  
+**Output:** false  
+
+---
+
+### Difficulty  
+- Easy
+
