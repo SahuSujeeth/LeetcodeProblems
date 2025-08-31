@@ -11,7 +11,7 @@ int romanToInt(string s)
     int total = 0;
     for (int i = 0; i < s.size(); i++)
     {
-        // If current symbol is smaller than next one, subtract it
+        // If current symbol is smaller than next one, subtract it...
         if (i + 1 < s.size() && value[s[i]] < value[s[i + 1]])
         {
             total -= value[s[i]];
