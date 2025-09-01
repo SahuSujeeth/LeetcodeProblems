@@ -109,4 +109,52 @@ If there is no common prefix, return an empty string `""`.
 ### Difficulty
 - Easy
 
+---
+
+## Day 5 - Valid Parentheses
+Problem Statement
+
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+An input string is valid if:
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+
+Examples
+Input:` s = "()"`
+Output:` true`
+
+Input: `s = "()[]{}"`
+Output: `true`
+
+Input: `s = "(]"`
+Output: `false`
+
+Input: `s = "([])"`
+Output:`true`
+
+Input: `s = "([)]"`
+Output: `false`
+
+
+## Approach
+
+Use a stack to track opening brackets.
+Iterate over the string:
+If the character is an opening bracket '(', '{', '[', push it to the stack.
+If it is a closing bracket, check the top of the stack:
+If it matches, pop the top.
+Otherwise, return false.
+At the end, if the stack is empty, return true.
+Why Stack?
+
+Stack ensures Last-In-First-Out (LIFO) order, which perfectly matches nested bracket structures.
+
+ ## Complexity
+Time Complexity: O(n) – each character is processed once.
+Space Complexity: O(n) – in the worst case, all opening brackets are stored in the stack
+
+## Difficulty
+- Easy.
+
 
