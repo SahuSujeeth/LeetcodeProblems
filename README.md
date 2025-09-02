@@ -157,4 +157,32 @@ Space Complexity: O(n) – in the worst case, all opening brackets are stored in
 ## Difficulty
 - Easy.
 
+---
+
+# 🚀 Day 6 – LeetCode Problem
+
+## 📘 Problem: Merge Two Sorted Lists (LeetCode #21)
+
+You are given the heads of two sorted linked lists `list1` and `list2`.
+
+➡️ Merge the two lists into **one sorted linked list**.  
+➡️ The merged list should be made by splicing together the nodes of the first two lists.  
+➡️ Return the head of the merged linked list.
+
+---
+
+## 🔹 Example
+
+**Input:**
+list1 = [1,2,4]
+list2 = [1,3,4]
+
+makefile
+Copy code
+
+**Output:**
+[1,1,2,3,4,4]
+
+## Diffculty
+-Easy
 
