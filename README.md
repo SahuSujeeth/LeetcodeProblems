@@ -213,3 +213,21 @@ Must handle overflow safely.
 ## Difficulty
  - Medium
 
+---
+
+# 🚀 Day 8 – Palindrome Number (LeetCode #9)
+
+## 📌 Problem Statement
+Given an integer `x`, return **true** if `x` is a palindrome, and **false** otherwise.
+
+- A palindrome is a number that reads the same forward and backward.
+- Example: `121` → palindrome ✅, `-121` → not palindrome ❌, `10` → not palindrome ❌.
+
+## Difficulty
+ - Easy
+
+---
+
+
+
+
