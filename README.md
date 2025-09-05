@@ -186,3 +186,30 @@ Copy code
 ## Diffculty
 -Easy
 
+---
+
+## 🚀 LeetCode Solutions – Day 7
+🔄 Problem 7: Reverse Integer
+Problem Statement
+Given a signed 32-bit integer x, return its digits reversed.
+If the reversed integer overflows (goes beyond the range of a 32-bit signed integer), return 0.
+
+Sample Input / Output
+
+`Input: 123`
+`Output: 321`
+
+`Input: -123`
+`Output: -321`
+
+`Input: 1534236469`
+`Output: 0 (overflow case)`
+
+Constraints
+−2³¹ ≤ x ≤ 2³¹ − 1
+
+Must handle overflow safely.
+
+## Difficulty
+ - Medium
+
