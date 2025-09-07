@@ -228,6 +228,35 @@ Given an integer `x`, return **true** if `x` is a palindrome, and **false** othe
 
 ---
 
+# Day 9 - Add Digits
+
+## Problem Description
+Given an integer `num`, repeatedly add all its digits until the result has only one digit, and return it.
+
+### Example 1
+**Input:**
+num = 38
+
+**Process:**
+3 + 8 = 11,
+1 + 1 = 2
+
+**Output:**
+2
+
+### Example 2
+**Input:**
+num = 0
+
+**Output:**
+0
+
+### Difficulty
+- Easy
+
+
+---
+
 
 
 
