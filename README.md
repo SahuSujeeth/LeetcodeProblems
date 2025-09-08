@@ -254,6 +254,43 @@ num = 0
 ### Difficulty
 - Easy
 
+---
+
+ ### Day-10 First Unique Character in a String
+ ## Problem Statement
+
+Given a string s, find the first non-repeating character in it and return its index.
+If it does not exist, return -1.
+
+🔑 Examples
+
+Example 1:
+`Input: s = "leetcode"`
+`Output: 0`
+
+Example 2:
+`Input: s = "loveleetcode"`
+`Output: 2`
+
+Example 3:
+`Input: s = "aabb"`
+`Output: -1`
+
+💡 Approach
+
+Count the frequency of each character in the string.
+Traverse the string again to find the first character with frequency 1.
+Return its index.
+If no such character exists, return -1.
+
+## Time Complexity
+O(n) → where n is the length of the string (two passes).
+
+## Space Complexity
+O(1) → Since only 26 lowercase letters (constant space).
+
+### Difficulty
+- Easy
 
 ---
 
