@@ -292,8 +292,18 @@ O(1) → Since only 26 lowercase letters (constant space).
 ### Difficulty
 - Easy
 
+  
 ---
-## today nothing solved leetcode problems...
+## Day - 11 Fibonaci nth digit of the given number.
+
+In this problem i understanded the recursion part detailly and the multiple recursive call also understanded very well...
+--> And reccursive understanded with parameters and with function also...
+-->And about base condition also... its like to stop the infinite recursions like infinty loop...
+
+## Time Complexity
+O(2^n) -> for the every function call by twice foe the anytime so the time complexuty is the 2 power of the n exponentially... this is the maximum time complexity for the fibonaci...
+### Diffculty
+- Easy
 
 
 
