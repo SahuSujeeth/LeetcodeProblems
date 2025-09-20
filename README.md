@@ -322,6 +322,59 @@ Return the **maximum possible frequency** of an element after performing at most
 
 ---
 
+# Day 13 – LeetCode 1752. Check if Array Is Sorted and Rotated
+
+## Problem Statement
+Given an integer array `nums`, return **true** if the array was originally sorted in non-decreasing order, then rotated some number of positions (including zero). Otherwise, return **false**.
+
+There may be duplicates in the original array.
+
+
+
+### Example 1:
+**Input:**  
+`nums = [3,4,5,1,2]`  
+
+**Output:**  
+`true`  
+
+**Explanation:**  
+The original sorted array is `[1,2,3,4,5]`.  
+After rotating by 2 positions → `[3,4,5,1,2]`.
+
+---
+
+### Example 2:
+**Input:**  
+`nums = [2,1,3,4]`  
+
+**Output:**  
+`false`  
+
+**Explanation:**  
+No rotation of a sorted array can make `[2,1,3,4]`.
+
+---
+
+## Approach
+1. Traverse the array and count how many times the **sorted order breaks** (i.e., when `nums[i] > nums[(i+1) % n]`).
+2. If the break happens **more than once**, return `false`.
+3. Otherwise, return `true`.
+
+This works because a sorted & rotated array can have **at most one "drop" point**.
+
+---
+
+## Complexity
+- **Time Complexity:** O(n) – one pass through the array.  
+- **Space Complexity:** O(1) – constant extra space.
+
+---
+
+## Diffculty
+- Easy
+
+
 
 
 
