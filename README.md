@@ -1,3 +1,4 @@
+
 # LeetCode Solutions – Day 1
 
 ## 🧩 Problem 1: Two Sum
@@ -374,6 +375,8 @@ This works because a sorted & rotated array can have **at most one "drop" point*
 ## Diffculty
 - Easy
 ....
+
+revised 
 
 
 
